@@ -6,8 +6,8 @@
     "distDir": "../dist"
   },
   "package": {
-    "productName": "calltimer2",
-    "version": "0.0.0"
+    "productName": "call-timer",
+    "version": "0.0.1"
   },
   "tauri": {
     "allowlist": {
@@ -19,9 +19,11 @@
     },
     "windows": [
       {
-        "title": "calltimer2",
-        "width": 800,
-        "height": 600
+        "title": "call-timer",
+        "width": 500,
+        "height": 175,
+        "resizable": false,
+        "fileDropEnabled": false
       }
     ],
     "security": {
