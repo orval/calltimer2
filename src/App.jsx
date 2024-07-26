@@ -1,12 +1,12 @@
 // import "./App.css";
-import Chooser from './components/chooser';
+import Chooser from './components/chooser'
 
-function App() {
+function App () {
   return (
-    <div class="app">
-       <Chooser />
+    <div class='app'>
+      <Chooser />
     </div>
-  );
+  )
 }
 
-export default App;
+export default App

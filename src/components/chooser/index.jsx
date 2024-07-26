@@ -46,7 +46,8 @@ class Chooser extends Component {
   render (props, { value }) {
     return (
       <div>
-        <input class={this.state.chooserStyle} type='text' value={value} onInput={this.handleInput}
+        <input
+          class={this.state.chooserStyle} type='text' value={value} onInput={this.handleInput}
           onMouseEnter={this.handleMouseEnter}
           onMouseLeave={this.handleMouseLeave}
         />
