@@ -2,6 +2,7 @@ import { useState } from "preact/hooks";
 import preactLogo from "./assets/preact.svg";
 import { invoke } from "@tauri-apps/api/tauri";
 import "./App.css";
+import Chooser from './components/chooser';
 
 function App() {
   const [greetMsg, setGreetMsg] = useState("");
@@ -14,7 +15,8 @@ function App() {
 
   return (
     <div class="container">
-      <h1>Welcome to Tauri!</h1>
+       <Chooser />
+      {/* <h1>Welcome to Tauri!</h1>
 
       <div class="row">
         <a href="https://vitejs.dev" target="_blank">
@@ -45,7 +47,7 @@ function App() {
         <button type="submit">Greet</button>
       </form>
 
-      <p>{greetMsg}</p>
+      <p>{greetMsg}</p> */}
     </div>
   );
 }
