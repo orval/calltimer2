@@ -15,6 +15,7 @@
     "preact": "^10.16.0"
   },
   "devDependencies": {
+    "@babel/core": "^7.28.5",
     "@preact/preset-vite": "^2.5.0",
     "@tauri-apps/cli": "^1",
     "standard": "^17.1.0",
