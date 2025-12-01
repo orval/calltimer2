@@ -20,8 +20,8 @@
     "windows": [
       {
         "title": "CallTimer",
-        "width": 500,
-        "height": 175,
+        "width": 276,
+        "height": 115,
         "resizable": false,
         "fileDropEnabled": false
       }
