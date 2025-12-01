@@ -1,4 +1,4 @@
-// import "./App.css";
+import './App.css'
 import Chooser from './components/chooser'
 
 function App () {
