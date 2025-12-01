@@ -6,7 +6,7 @@
     "distDir": "../dist"
   },
   "package": {
-    "productName": "Call Timer",
+    "productName": "CallTimer",
     "version": "0.0.1"
   },
   "tauri": {
@@ -19,7 +19,7 @@
     },
     "windows": [
       {
-        "title": "Call Timer",
+        "title": "CallTimer",
         "width": 500,
         "height": 175,
         "resizable": false,
