@@ -1,4 +1,4 @@
-import { h, Component } from 'preact'
+import { Component } from 'preact'
 import { DateTime } from 'luxon'
 import style from './style.module.css'
 import Callclock from '../callclock'

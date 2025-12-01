@@ -1,4 +1,3 @@
-import { h } from 'preact'
 import { DateTime, Duration, Interval } from 'luxon'
 
 const CALL_DURATION = Duration.fromMillis(45 * 60 * 1000)

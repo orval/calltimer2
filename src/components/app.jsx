@@ -1,4 +1,3 @@
-import { h } from 'preact'
 import Chooser from './chooser'
 
 const App = () => (

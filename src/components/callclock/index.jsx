@@ -1,4 +1,4 @@
-import { h, Component } from 'preact'
+import { Component } from 'preact'
 import { DateTime, Interval } from 'luxon'
 import style from './style.module.css'
 import Face from '../face'
