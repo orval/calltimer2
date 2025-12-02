@@ -23,6 +23,7 @@
         "width": 276,
         "height": 115,
         "resizable": false,
+        "alwaysOnTop": true,
         "fileDropEnabled": false
       }
     ],
